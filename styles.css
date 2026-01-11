@@ -104,10 +104,14 @@ nav .container {
 
 .about p {
     font-size: 1.1rem;
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 900px;
+    margin: 0 auto 1.5rem;
     text-align: center;
     line-height: 1.8;
+}
+
+.about p:last-child {
+    margin-bottom: 0;
 }
 
 /* Skills Section */
@@ -192,7 +196,17 @@ nav .container {
 
 .project-card p {
     color: #666;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.project-tech {
+    display: block;
+    font-size: 0.9rem;
+    color: #667eea;
+    font-weight: 500;
+    margin-top: 1rem;
+    line-height: 1.6;
 }
 
 .project-link {
