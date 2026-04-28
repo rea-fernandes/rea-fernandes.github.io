@@ -8,7 +8,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333;
-    background-color: #eef3f8;
 }
 
 .container {
@@ -117,7 +116,7 @@ nav .container {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-color: #2563eb;
     color: white;
     padding: 8rem 0;
     text-align: center;
